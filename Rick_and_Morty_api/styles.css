@@ -1,0 +1,83 @@
+body {
+    max-width: 1920px;
+    min-width: 550px;
+    text-align: center;
+    margin: 20px auto;
+    background-color:rgb(235, 135, 222);
+  }
+  .font-size-character-name {
+    font-size: 20px;
+  }
+  #filter-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #search {
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    border: solid black;
+    border-radius: 5px;
+  }
+  button {
+    height: 50px;
+    width: 80px;
+    background-color: beige;
+    border-radius: 5px;
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  #brick-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    font-weight: bold;
+  }
+  
+  .brick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    width: 180px;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background-color: beige;
+    box-shadow: 10px 5px 10px #bb0c0c;
+  }
+  .brick-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  p {
+    margin: 0;
+  }
+  .brick img {
+    width: 160px;
+    height: 120px;
+    border-radius: 10px;
+  }
+  #pagination {
+    margin: 40px auto;
+  }
+  #message {
+    font-size: 24px;
+    color: blue;
+  }
+
+  @media screen and (max-width: 700px) {
+    .alive, .dead, .unknow {
+      width: 100%; 
+    }
+  }
